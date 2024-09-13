@@ -4,7 +4,7 @@ from datasets import load_dataset
 
 # 配置logging，确保日志信息被写入文件
 logging.basicConfig(
-    filename='training_log.log',  # 日志文件名
+    filename='bert_finetune_pretrained_log.log',  # 日志文件名
     filemode='w',                 # 写入模式 'w' 表示覆盖，'a' 表示追加
     format='%(asctime)s - %(levelname)s - %(message)s',  # 日志格式
     level=logging.INFO            # 设置日志级别为INFO
