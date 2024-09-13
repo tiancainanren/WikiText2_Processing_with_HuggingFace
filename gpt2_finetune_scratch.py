@@ -1,5 +1,5 @@
 import logging
-from transformers import GPT2Config, GPT2LMHeadModel, Trainer, TrainingArguments,GPT2LMHeadModel, GPT2Tokenizer, Trainer, TrainingArguments
+from transformers import GPT2Config, GPT2LMHeadModel, Trainer, TrainingArguments, GPT2Tokenizer
 from datasets import load_dataset
 
 # 配置logging
